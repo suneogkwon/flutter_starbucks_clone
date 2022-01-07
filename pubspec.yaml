@@ -67,6 +67,10 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  assets:
+    - assets/
+    - assets/images/
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
@@ -119,11 +123,11 @@ flutter_native_splash:
 
   # The image parameter allows you to specify an image used in the splash screen.  It must be a
   # png file and should be sized for 4x pixel density.
-  #image: assets/splash.png
+  image: assets/starbucks_logo.png
 
   # This property allows you to specify an image used as branding in the splash screen. It must be
   # a png file. Currently, it is only supported for Android and iOS.
-  branding: assets/starbucks_logo.png
+#  branding: assets/starbucks_logo.png
 
   # Specify your branding image for dark mode.
   #branding_dark: assets/dart_dark.png
